@@ -1,0 +1,18 @@
+<html>
+	<head>
+	<script>
+	function area()
+	{
+	alert("click ok to get the answer");
+	var a=document.getElementById("peri").value; 
+	var b=document.getElementById("radius").value;
+	var result =parseInt(a)*parseInt(b)*parseInt(b);
+	document.getElementById("area").value=result;
+	}
+	</script>
+	<body>
+	peri: <input type="text" id="peri"><br><br>
+radius  : <input type="text" id="radius"><br><br>
+	<input type="button" value="area" id="area" onclick="area()">
+	</body> 
+</html>
